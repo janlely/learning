@@ -185,6 +185,8 @@
 * 更数学的思维方式
 * 更安全的并发支持
 * [为什么学习haskell](https://www.jianshu.com/p/b52cea578324)
+    * 强类型，强迫写出逻辑严密的代码(代码能编译通过，逻辑基本没问题)
+    * 代码即文档
 * [48小时写一个Scheme解析器](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/Parsing)
 * [haskell趣学指南](https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details)
 
