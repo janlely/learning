@@ -185,4 +185,6 @@
 * 更数学的思维方式
 * 更安全的并发支持
 * [为什么学习haskell](https://www.jianshu.com/p/b52cea578324)
+* [48小时写一个Scheme解析器](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/Parsing)
+* [haskell趣学指南](https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details)
 
