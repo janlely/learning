@@ -178,5 +178,11 @@
 
 
 ### HTTP2
-[HTTP/2 新特性总结](https://www.jianshu.com/p/67c541a421f9)
-[HTTP2.0与HTTP1.0的区别](https://blog.csdn.net/u012657197/article/details/77877840)
+* [HTTP/2 新特性总结](https://www.jianshu.com/p/67c541a421f9)
+* [HTTP2.0与HTTP1.0的区别](https://blog.csdn.net/u012657197/article/details/77877840)
+
+### 函数式编程(FP)
+* 更数学的思维方式
+* 更安全的并发支持
+* [为什么学习haskell](https://www.jianshu.com/p/b52cea578324)
+
