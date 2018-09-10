@@ -189,4 +189,6 @@
     * 代码即文档
 * [48小时写一个Scheme解析器](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/Parsing)
 * [haskell趣学指南](https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details)
-
+* [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
+* [stack guide](https://docs.haskellstack.org/en/stable/GUIDE/)
+* [haskell学习资料大全](https://github.com/bitemyapp/learnhaskell/blob/master/guide-zh_CN.md)
