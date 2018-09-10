@@ -179,3 +179,4 @@
 
 ### HTTP2
 [HTTP/2 新特性总结](https://www.jianshu.com/p/67c541a421f9)
+[HTTP2.0与HTTP1.0的区别](https://blog.csdn.net/u012657197/article/details/77877840)
