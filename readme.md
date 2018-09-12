@@ -175,11 +175,30 @@
 * postgresql
 
 #### KV型
+* redis
 
+#### 乐观锁、悲观锁
+* 乐观锁: 认为并发不会带来问题，一开始不拿锁，允许并发，如果失败了再重试或者回滚
+    * CAS(Compare and Swap 比较并交换), 更新前先比较
+    * 表中添加version字段，更新时判断version字段是否和之前取到的一致，不一致则重试或回滚
+
+    ```
+    select version, data from t_table;
+    update t_table set data = #{data}, version = version + 1 where version = #{version};
+    ```
+    * 如果经常失败则性能差
+* 悲观锁: 认为并发会带来问题，一开始就拿锁，不允许并发
 
 ### HTTP2
 * [HTTP/2 新特性总结](https://www.jianshu.com/p/67c541a421f9)
 * [HTTP2.0与HTTP1.0的区别](https://blog.csdn.net/u012657197/article/details/77877840)
+
+### 消息队列
+#### rabbitMQ
+#### kafka
+#### redis
+
+### 容器技术
 
 ### 函数式编程(FP)
 * 更数学的思维方式
