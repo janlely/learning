@@ -189,6 +189,26 @@
     * 如果经常失败则性能差
 * 悲观锁: 认为并发会带来问题，一开始就拿锁，不允许并发
 
+#### 数据库索引实现方式  
+[Mysql索引实现](https://www.cnblogs.com/bonelee/p/6225211.html)
+
+* MyISAM
+    * [B+Tree](https://www.cnblogs.com/vianzhang/p/7922426.html)
+    * 叶节点的data域存数据记录的地址
+    * 可以没有主键
+* InnoDB
+    * B+Tree
+    * 必须有主键，如果没指定会有隐藏主键
+    * 数据按主键聚集
+    * 叶子节点保存了数据本身
+    * 主键索引十分高效
+    * 辅助索引的data域是主键
+
+### 秒杀系统设计方法
+
+* [电商,秒杀系统,设计思路和实现方法](https://blog.csdn.net/bigtree_3721/article/details/72760538)
+* [淘宝大秒系统设计详解](https://blog.csdn.net/universe_ant/article/details/74375884)
+
 ### HTTP2
 * [HTTP/2 新特性总结](https://www.jianshu.com/p/67c541a421f9)
 * [HTTP2.0与HTTP1.0的区别](https://blog.csdn.net/u012657197/article/details/77877840)
