@@ -192,8 +192,11 @@
 #### 数据库索引实现方式  
 [Mysql索引实现](https://www.cnblogs.com/bonelee/p/6225211.html)
 
+* [AVL-Tree, B-Tree, B+Tree](https://www.cnblogs.com/vianzhang/p/7922426.html)
+	* AVL：平衡二叉树
+	* 
 * MyISAM
-    * [B+Tree](https://www.cnblogs.com/vianzhang/p/7922426.html)
+    * B+Tree
     * 叶节点的data域存数据记录的地址
     * 可以没有主键
 * InnoDB
