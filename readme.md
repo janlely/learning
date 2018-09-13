@@ -194,7 +194,6 @@
 
 * [AVL-Tree, B-Tree, B+Tree](https://www.cnblogs.com/vianzhang/p/7922426.html)
 	* AVL：平衡二叉树
-	* 
 * MyISAM
     * B+Tree
     * 叶节点的data域存数据记录的地址
@@ -203,7 +202,7 @@
     * B+Tree
     * 必须有主键，如果没指定会有隐藏主键
     * 数据按主键聚集
-    * 叶子节点保存了数据本身
+    * 主键叶子节点保存了数据本身
     * 主键索引十分高效
     * 辅助索引的data域是主键
 
