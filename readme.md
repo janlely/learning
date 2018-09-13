@@ -198,6 +198,7 @@
     * B+Tree
     * 叶节点的data域存数据记录的地址
     * 可以没有主键
+    * 索引文件和数据文件分开存储
 * InnoDB
     * B+Tree
     * 必须有主键，如果没指定会有隐藏主键
@@ -205,6 +206,7 @@
     * 主键叶子节点保存了数据本身
     * 主键索引十分高效
     * 辅助索引的data域是主键
+    * 索引文件包含了数据
 
 ### 秒杀系统设计方法
 
@@ -228,6 +230,7 @@
 * [为什么学习haskell](https://www.jianshu.com/p/b52cea578324)
     * 强类型，强迫写出逻辑严密的代码(代码能编译通过，逻辑基本没问题)
     * 代码即文档
+* scheme语言概要[上](https://www.ibm.com/developerworks/cn/linux/l-schm/index1.html)[下](https://www.ibm.com/developerworks/cn/linux/l-schm/index2.html)
 * [48小时写一个Scheme解析器](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/Parsing)
 * [haskell趣学指南](https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details)
 * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
