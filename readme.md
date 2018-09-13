@@ -208,6 +208,23 @@
     * 辅助索引的data域是主键
     * 索引文件包含了数据
 
+#### mysql事务、并发、锁机制
+* [这篇文章讲得很详细](https://blog.csdn.net/canot/article/details/53815294)
+* 行级锁、表级锁、页级锁
+	* 表级锁: 锁定整个表(MyISAM)，加锁快、易冲突、低并发
+	* 页级锁: 锁定一个数据块(BDB)
+	* 行级锁: 锁定索引到的行(InnoDB)，加锁慢、不易冲突、高并发
+* InnoBD中的两种行级锁:
+	* 共享锁: ...lock in share mode  允许一个事务去读，阻止其他事务获得相同数据集的排他锁。什么意思：
+		* 可以读
+		* 不能加排他锁
+	* 排他锁: ...for update 允许获得排他锁的事务更新数据，阻止其他事务取得相同数据集的共享读锁和排他写锁。什么意思：
+		* 可以读
+		* 不能加共享锁 
+	
+* [InnoDB事务执行流程](https://www.linuxidc.com/Linux/2018-04/152080.htm)
+
+
 ### 秒杀系统设计方法
 
 * [电商,秒杀系统,设计思路和实现方法](https://blog.csdn.net/bigtree_3721/article/details/72760538)
@@ -219,7 +236,27 @@
 
 ### 消息队列
 #### rabbitMQ
+* [AMQP协议](http://langyu.iteye.com/blog/759663/)
+* Exchanges: 接收生产者发送的消息
+	* [Exchanges三种模式详解](https://blog.csdn.net/fxq8866/article/details/62049393)
+	* Direct: Queue需要bind到Exchange上并要求一个routing key，完全匹配routing key的消息会转发到Queue。
+	* 消息发送到与Exchange bind的所有Queue上
+	* Topic: 和Direct的区别是，routing key采用模式匹配
+* Queue: 生产者发的消息最终达到这里
+* Bindings: 决定消息如何路由到正确的Queue
+* Routing key: 消息路由到Queue时的关键词
+* [Ack](https://www.dev-heaven.com/posts/36563.html): 消息确认，默认为自动确认，server端不必等待consumer端确认，就丢弃消息。开启手动确认后，server端等待consumer确认之后才会丢弃消息。如果consumer未发送ack,则server通过consumer的连接是中断来确认消息是否可以重新发给的其他的consumer。
+* [事务和Confirm](https://baijiahao.baidu.com/s?id=1604438957587131228&wfr=spider&for=pc): 为了解决broker到publisher的确认，默认不开启。
+ 
+[Ack and Confirm](http://www.rabbitmq.com/confirms.html)
+
 #### kafka
+* Topic: 消息按topic组织，生产者向topic发送消息，消息费订单topic的消息
+* Partition: 一个topic可以有多个partition, 消息分散在partition中
+* Consumer Group: 一个group内可以有多个consumer, 一个group有一个offset。一个topic可以有多个group, 每个group管理自己的offset
+* [Kafka用zk做什么](https://blog.csdn.net/m0_37738114/article/details/80406948)
+* offset管理: kafka不马上删除数据，而是通过更新offset。 
+
 #### redis
 
 ### 容器技术
@@ -230,7 +267,7 @@
 * [为什么学习haskell](https://www.jianshu.com/p/b52cea578324)
     * 强类型，强迫写出逻辑严密的代码(代码能编译通过，逻辑基本没问题)
     * 代码即文档
-* scheme语言概要[上](https://www.ibm.com/developerworks/cn/linux/l-schm/index1.html)[下](https://www.ibm.com/developerworks/cn/linux/l-schm/index2.html)
+* scheme语言概要[上](https://www.ibm.com/developerworks/cn/linux/l-schm/index1.html), [下](https://www.ibm.com/developerworks/cn/linux/l-schm/index2.html)
 * [48小时写一个Scheme解析器](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/Parsing)
 * [haskell趣学指南](https://legacy.gitbook.com/book/mno2/learnyouahaskell-zh/details)
 * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
