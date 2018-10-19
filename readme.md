@@ -32,7 +32,7 @@
 #### 微服务(microservice)
 * [微服务基础理论](https://medium.com/@Alibaba_Cloud/conways-law-a-theoretical-basis-for-the-microservice-architecture-c666f7fcc66a)
 * [微服务系统设计原则](https://techbeacon.com/5-fundamentals-successful-microservice-design)
-	* 合理地拆分服务 
+	* 合理地拆分服务
 	* 如何定义接口
 	* 负载均衡
 	* 服务装载与卸载
@@ -43,15 +43,15 @@
 * DNS [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS)
 	* 不管服务是否正常
 * zookeeper
-	* rpc load-balance([dubbo](https://github.com/apache/incubator-dubbo), [grpc](https://github.com/makdharma/grpc-zookeeper-lb)) 
+	* rpc load-balance([dubbo](https://github.com/apache/incubator-dubbo), [grpc](https://github.com/makdharma/grpc-zookeeper-lb))
 * [nginx](https://www.nginx.com/)
 	* nginx+, [nginx的UI](https://demo.nginx.com/)
 * [fabio](https://github.com/fabiolb/fabio)
-	* go语言写的 
-	* TCP/HTTP 
-* [Haproxy](http://www.haproxy.org/) 
-	* TCP/HTTP 
-* [Træfik](https://github.com/containous/traefik/) 
+	* go语言写的
+	* TCP/HTTP
+* [Haproxy](http://www.haproxy.org/)
+	* TCP/HTTP
+* [Træfik](https://github.com/containous/traefik/)
 	* 最新的
 	* 1.7w stars
 	* 支持多容器
@@ -63,25 +63,26 @@
 	* 通过控制IP来实现负载均衡
 	* VIP
 	* [LVS简介及使用](https://www.cnblogs.com/codebean/archive/2011/07/25/2116043.html)
-	 
+    * [keepalived](https://www.jianshu.com/p/b050d8861fc1)
+
 #### 服务网格(Service Mesh)
 * [什么是服务网格](https://www.nginx.com/blog/what-is-a-service-mesh/)
 	* [什么是服务网格？为什么你需要它？](https://blog.csdn.net/gBbQRglVIr3dYi82/article/details/78936951)
 	* [Service Mesh服务网格：是什么和为什么](https://blog.csdn.net/zyqduron/article/details/80433995)
 	* 让服务治理变得简单
 * [istio](https://istio.io/docs/)
-	* [官方文档](https://istio.io/docs/) 	
-	* [in codelabs](https://codelabs.developers.google.com/codelabs/cloud-hello-istio/#0) 
+	* [官方文档](https://istio.io/docs/)
+	* [in codelabs](https://codelabs.developers.google.com/codelabs/cloud-hello-istio/#0)
 	* [为什么需要istio](https://jimmysong.io/posts/why-do-we-need-istio/)
 * [linkerd](https://github.com/linkerd/linkerd)
-	* [官方文档](https://linkerd.io/docs/) 
-	* [聊聊Service Mesh：linkerd](https://blog.csdn.net/zl1zl2zl3/article/details/78678460?locationNum=2&fps=1)  
+	* [官方文档](https://linkerd.io/docs/)
+	* [聊聊Service Mesh：linkerd](https://blog.csdn.net/zl1zl2zl3/article/details/78678460?locationNum=2&fps=1)
 * [envoy](https://github.com/envoyproxy/envoy)
-	* [官方文档](https://www.envoyproxy.io/docs/envoy/latest/) 
+	* [官方文档](https://www.envoyproxy.io/docs/envoy/latest/)
 	* [Envoy和同类系统的对比](https://www.jianshu.com/p/e5655e9ce7fe)
 
 
-	
+
 #### 无服务(serverLess)
 * 事件驱动
 * [Faas介绍](http://dockone.io/article/2669)
@@ -94,23 +95,23 @@
 
 #### 服务间调用(RPC)
 * 安全传输协议[TLS](https://blog.csdn.net/lizewenhh/article/details/79740609)
-	* [SSL与TLS的区别以及介绍](https://blog.csdn.net/anningzhu/article/details/77517432) 
+	* [SSL与TLS的区别以及介绍](https://blog.csdn.net/anningzhu/article/details/77517432)
 * [dubbo](https://github.com/apache/incubator-dubbo)
-	* java 
+	* java
 * [grpc](https://github.com/grpc/grpc)
-	* 跨语言 
+	* 跨语言
 * [ice](https://github.com/zeroc-ice/ice)
-	* 跨语言(不支持go) 
+	* 跨语言(不支持go)
 	* [高性能](https://blog.csdn.net/whzhaochao/article/details/51406539)
 * [thrift](https://github.com/apache/thrift)
-	* 跨语言 
+	* 跨语言
 
 #### 序列化
 * [protobuf](https://github.com/protocolbuffers/protobuf)
 * [thrift](https://github.com/apache/thrift)
 * [avro](https://github.com/apache/avro)
 * [ice](https://github.com/zeroc-ice/ice)
-	
+
 #### 分布式事务
 
 * 原子性(Atomicity )、一致性( Consistency )、隔离性或独立性( Isolation)和持久性(Durabilily)，简称就是ACID
@@ -123,7 +124,7 @@
 	* 协调者、参与者
 	* 协调者宕机会影响整个集群
 	* 事务过程中所有参与者需要同步阻塞
-	* 数据没有强一致，当协调者发出commit通知，而参与者未收到时会一直阻塞 
+	* 数据没有强一致，当协调者发出commit通知，而参与者未收到时会一直阻塞
 * 三阶段提交
 	* 投票、预提交、提交
 	* 超时机制
@@ -139,11 +140,11 @@
 	* 消费者通知生产者成功或失败(通过MQ或者直接远程调用)
 	* 生产者定期扫描消息表，处理未完成的消息
 * MQ 事务消息
-	* 类似两阶段提交的实现 
+	* 类似两阶段提交的实现
 	* 保证消息发送与本地事务同时成功或同时失败
 	* RocketMQ支持事务消息
-	* 主流的MQ不支持，RabbitMQ, kafka 
-* Sagas 事务模型（略）	
+	* 主流的MQ不支持，RabbitMQ, kafka
+* Sagas 事务模型（略）
 * [参考资料](https://www.cnblogs.com/savorboard/p/distributed-system-transaction-consistency.html)
 
 ### 分布式数据一致性
@@ -189,7 +190,7 @@
     * 如果经常失败则性能差
 * 悲观锁: 认为并发会带来问题，一开始就拿锁，不允许并发
 
-#### 数据库索引实现方式  
+#### 数据库索引实现方式
 [Mysql索引实现](https://www.cnblogs.com/bonelee/p/6225211.html)
 
 * [AVL-Tree, B-Tree, B+Tree](https://www.cnblogs.com/vianzhang/p/7922426.html)
@@ -220,8 +221,8 @@
 		* 不能加排他锁
 	* 排他锁: ...for update 允许获得排他锁的事务更新数据，阻止其他事务取得相同数据集的共享读锁和排他写锁。什么意思：
 		* 可以读
-		* 不能加共享锁 
-	
+		* 不能加共享锁
+
 * [InnoDB事务执行流程](https://www.linuxidc.com/Linux/2018-04/152080.htm)
 
 
@@ -247,7 +248,7 @@
 * Routing key: 消息路由到Queue时的关键词
 * [Ack](https://www.dev-heaven.com/posts/36563.html): 消息确认，默认为自动确认，server端不必等待consumer端确认，就丢弃消息。开启手动确认后，server端等待consumer确认之后才会丢弃消息。如果consumer未发送ack,则server通过consumer的连接是中断来确认消息是否可以重新发给的其他的consumer。
 * [事务和Confirm](https://baijiahao.baidu.com/s?id=1604438957587131228&wfr=spider&for=pc): 为了解决broker到publisher的确认，默认不开启。
- 
+
 [Ack and Confirm](http://www.rabbitmq.com/confirms.html)
 
 #### kafka
@@ -255,7 +256,7 @@
 * Partition: 一个topic可以有多个partition, 消息分散在partition中
 * Consumer Group: 一个group内可以有多个consumer, 一个group有一个offset。一个topic可以有多个group, 每个group管理自己的offset
 * [Kafka用zk做什么](https://blog.csdn.net/m0_37738114/article/details/80406948)
-* offset管理: kafka不马上删除数据，而是通过更新offset。 
+* offset管理: kafka不马上删除数据，而是通过更新offset。
 
 #### redis
 
@@ -273,3 +274,14 @@
 * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
 * [stack guide](https://docs.haskellstack.org/en/stable/GUIDE/)
 * [haskell学习资料大全](https://github.com/bitemyapp/learnhaskell/blob/master/guide-zh_CN.md)
+
+### VOIP
+#### SIP
+[语音业务VOIP开发之SIP协议篇：SIP基本场景分析](https://blog.csdn.net/zqixiao_09/article/details/79519335)
+[](https://blog.csdn.net/zqixiao_09/article/details/79519575)
+#### FREESWITCH
+[语音业务VOIP开发之SIP协议篇：SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
+#### SIPXECS
+[sipxecs总体介绍](https://www.xuebuyuan.com/684099.html)
+#### OPENSIPS
+[opensips介绍](https://www.xuebuyuan.com/1900947.html)
