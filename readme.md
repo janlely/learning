@@ -194,6 +194,7 @@
 
 #### 数据库索引实现方式
 [Mysql索引实现](https://www.cnblogs.com/bonelee/p/6225211.html)
+[MySQL的InnoDB索引原理详解](https://www.cnblogs.com/shijingxiang/articles/4743324.html)
 
 * [AVL-Tree, B-Tree, B+Tree](https://www.cnblogs.com/vianzhang/p/7922426.html)
 	* AVL：平衡二叉树
@@ -294,6 +295,8 @@
 [sipxecs总体介绍](https://www.xuebuyuan.com/684099.html)
 #### OPENSIPS
 [opensips介绍](https://www.xuebuyuan.com/1900947.html)
+#### Asterisk
+[开源软交换系统 FreeSwitch 与 Asterisk 比较](https://www.cnblogs.com/welhzh/p/5650443.html)
 
 ### 计算机网络相关
 
