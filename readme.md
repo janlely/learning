@@ -309,9 +309,9 @@
 [开源软交换系统 FreeSwitch 与 Asterisk 比较](https://www.cnblogs.com/welhzh/p/5650443.html)
 #### FREESWITCH应用优化
 
-*[FreeSWITCH折腾笔记8——使用OpenSIPS进行负载均衡](http://blog.51cto.com/908405/2235934)
-*[freeswitch 之mysql性能优化篇](https://blog.csdn.net/swcxy12315/article/details/79464931)
-*[freeswitch使用mysql代替sqlite以及通过lua管理用户登录](https://blog.csdn.net/thrill008/article/details/78413260)
+* [FreeSWITCH折腾笔记8——使用OpenSIPS进行负载均衡](http://blog.51cto.com/908405/2235934)
+* [freeswitch 之mysql性能优化篇](https://blog.csdn.net/swcxy12315/article/details/79464931)
+* [freeswitch使用mysql代替sqlite以及通过lua管理用户登录](https://blog.csdn.net/thrill008/article/details/78413260)
 ### 计算机网络相关
 
 #### NAT相关
