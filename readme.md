@@ -287,21 +287,31 @@
 
 ### VOIP
 #### SIP
-[语音业务VOIP开发之SIP协议篇：SIP基本场景分析](https://blog.csdn.net/zqixiao_09/article/details/79519335)
-[语音业务VOIP开发之SIP协议篇（二） —— SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
-[代理（Proxy）和背靠背用户代理（B2BUA）](https://blog.csdn.net/livingpark/article/details/7088659)
+
+* [语音业务VOIP开发之SIP协议篇：SIP基本场景分析](https://blog.csdn.net/zqixiao_09/article/details/79519335)
+* [语音业务VOIP开发之SIP协议篇（二） —— SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
+* [代理（Proxy）和背靠背用户代理（B2BUA）](https://blog.csdn.net/livingpark/article/details/7088659)
+
 #### FREESWITCH
+
 [语音业务VOIP开发之SIP协议篇：SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
+
 #### SIPXECS
+
 [sipxecs总体介绍](https://www.xuebuyuan.com/684099.html)
+
 #### OPENSIPS
+
 [opensips介绍](https://www.xuebuyuan.com/1900947.html)
+
 #### Asterisk
+
 [开源软交换系统 FreeSwitch 与 Asterisk 比较](https://www.cnblogs.com/welhzh/p/5650443.html)
 #### FREESWITCH应用优化
-[FreeSWITCH折腾笔记8——使用OpenSIPS进行负载均衡](http://blog.51cto.com/908405/2235934)
-[freeswitch 之mysql性能优化篇](https://blog.csdn.net/swcxy12315/article/details/79464931)
-[freeswitch使用mysql代替sqlite以及通过lua管理用户登录](https://blog.csdn.net/thrill008/article/details/78413260)
+
+*[FreeSWITCH折腾笔记8——使用OpenSIPS进行负载均衡](http://blog.51cto.com/908405/2235934)
+*[freeswitch 之mysql性能优化篇](https://blog.csdn.net/swcxy12315/article/details/79464931)
+*[freeswitch使用mysql代替sqlite以及通过lua管理用户登录](https://blog.csdn.net/thrill008/article/details/78413260)
 ### 计算机网络相关
 
 #### NAT相关
