@@ -318,3 +318,8 @@
 
 [单IP做NAT支持的最大连接数问题](https://blog.csdn.net/qiushanjushi/article/details/43306511)
 
+
+### HTTP相关
+
+#### 跨域
+[跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
