@@ -288,7 +288,8 @@
 ### VOIP
 #### SIP
 [语音业务VOIP开发之SIP协议篇：SIP基本场景分析](https://blog.csdn.net/zqixiao_09/article/details/79519335)
-[](https://blog.csdn.net/zqixiao_09/article/details/79519575)
+[语音业务VOIP开发之SIP协议篇（二） —— SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
+[代理（Proxy）和背靠背用户代理（B2BUA）](https://blog.csdn.net/livingpark/article/details/7088659)
 #### FREESWITCH
 [语音业务VOIP开发之SIP协议篇：SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
 #### SIPXECS
@@ -303,7 +304,7 @@
 [freeswitch使用mysql代替sqlite以及通过lua管理用户登录](https://blog.csdn.net/thrill008/article/details/78413260)
 ### 计算机网络相关
 
-####　ＮＡＴ相关
+#### NAT相关
 
 [单IP做NAT支持的最大连接数问题](https://blog.csdn.net/qiushanjushi/article/details/43306511)
 
