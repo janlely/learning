@@ -328,4 +328,5 @@
 #### configure, make, make install
 * [The magic behind configure, make, make install](https://robots.thoughtbot.com/the-magic-behind-configure-make-make-install)
 * [Using Autotools](https://developer.gnome.org/anjuta-build-tutorial/stable/create-autotools.html.en)
-
+* [configure.ac and configure.in](https://stackoverflow.com/questions/3782994/any-difference-between-configure-ac-and-configure-in-and-makefile-am-and-makefi)
+* [automake cmake](https://blog.csdn.net/cnsword/article/details/7542696)
