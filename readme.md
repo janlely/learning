@@ -323,3 +323,9 @@
 
 #### 跨域
 [跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
+
+### C编译相关
+#### configure, make, make install
+* [The magic behind configure, make, make install](https://robots.thoughtbot.com/the-magic-behind-configure-make-make-install)
+* [Using Autotools](https://developer.gnome.org/anjuta-build-tutorial/stable/create-autotools.html.en)
+
