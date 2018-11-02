@@ -332,13 +332,17 @@
 * [automake cmake](https://blog.csdn.net/cnsword/article/details/7542696)
 
 
-#### 加密相关
+### 加密相关
 [MD5算法原理](https://www.cnblogs.com/ttss/p/4243274.html)
 [PKCS5 PKCS7](https://blog.csdn.net/test1280/article/details/75268255)
 
 
-#### 前后端分享API文档生成工具
+### 前后端分享API文档生成工具
 * [swagger](https://swagger.io/)
 * [rap2-delos](https://github.com/thx/rap2-delos)
 * [rap](https://github.com/thx/RAP)
 * [easy-mock](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)
+
+
+### nodejs 工具
+* [nodejs进程管理工具](https://github.com/Unitech/pm2)
