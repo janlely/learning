@@ -330,3 +330,7 @@
 * [Using Autotools](https://developer.gnome.org/anjuta-build-tutorial/stable/create-autotools.html.en)
 * [configure.ac and configure.in](https://stackoverflow.com/questions/3782994/any-difference-between-configure-ac-and-configure-in-and-makefile-am-and-makefi)
 * [automake cmake](https://blog.csdn.net/cnsword/article/details/7542696)
+
+
+#### 加密相关
+[MD5算法原理](https://www.cnblogs.com/ttss/p/4243274.html)
