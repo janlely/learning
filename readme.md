@@ -292,6 +292,7 @@
 * [语音业务VOIP开发之SIP协议篇（二） —— SIP报文浅析](https://blog.csdn.net/zqixiao_09/article/details/79519575)
 * [代理（Proxy）和背靠背用户代理（B2BUA）](https://blog.csdn.net/livingpark/article/details/7088659)
 * [freeswitch中文文档](http://www.freeswitch.org.cn/2010/04/30/freeswitch-zhong-wen-wen-dang.html)
+* [opensips官方文档(重要)](http://www.opensips.org/Documentation/Manuals)
 
 #### FREESWITCH
 
