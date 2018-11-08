@@ -293,6 +293,7 @@
 * [代理（Proxy）和背靠背用户代理（B2BUA）](https://blog.csdn.net/livingpark/article/details/7088659)
 * [freeswitch中文文档](http://www.freeswitch.org.cn/2010/04/30/freeswitch-zhong-wen-wen-dang.html)
 * [opensips官方文档(重要)](http://www.opensips.org/Documentation/Manuals)
+* [sip via rport](https://www.cnblogs.com/xiaOt119/archive/2012/06/11/2545136.html)
 
 #### FREESWITCH
 
