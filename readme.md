@@ -360,3 +360,4 @@
 ### 搜索相关
 * [Elasticsearch－基础介绍及索引原理分析](https://www.cnblogs.com/dreamroute/p/8484457.html)
 
+* [[lucene字典实现原理——FST](https://www.cnblogs.com/bonelee/p/6226185.html)](https://www.cnblogs.com/bonelee/p/6226185.html)
