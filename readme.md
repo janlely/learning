@@ -361,3 +361,4 @@
 * [Elasticsearch－基础介绍及索引原理分析](https://www.cnblogs.com/dreamroute/p/8484457.html)
 * [[lucene字典实现原理——FST](https://www.cnblogs.com/bonelee/p/6226185.html)](https://www.cnblogs.com/bonelee/p/6226185.html)
 * [Elasticsearch原理](https://blog.csdn.net/qq_36289377/article/details/82993160)
+* [Finite State Transducers 详解](https://blog.csdn.net/fightingforcv/article/details/42709355<Paste>)
