@@ -227,7 +227,7 @@
   	* 不能加共享锁
 * [InnoDB事务执行流程](https://www.linuxidc.com/Linux/2018-04/152080.htm)
 
-####　MYSQL其他
+#### MYSQL其他
 
 [视图](https://www.cnblogs.com/geaozhang/p/6792369.html)
 
@@ -353,4 +353,10 @@
 ### 网络抓包相关
 [tcpdump抓包对性能的影响](https://blog.csdn.net/dog250/article/details/52502623<Paste>)
 
-### [ZeroMQ中文教程](https://blog.csdn.net/karlin999/article/details/79571357)
+
+### 网络编程相关
+* [ZeroMQ中文教程](https://blog.csdn.net/karlin999/article/details/79571357)
+
+### 搜索相关
+* [Elasticsearch－基础介绍及索引原理分析](https://www.cnblogs.com/dreamroute/p/8484457.html)
+
