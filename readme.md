@@ -339,6 +339,7 @@
 ### 加密相关
 [MD5算法原理](https://www.cnblogs.com/ttss/p/4243274.html)
 [PKCS5 PKCS7](https://blog.csdn.net/test1280/article/details/75268255)
+[HEX原理](https://www.jianshu.com/p/57c4e8d3f035)
 
 
 ### 前后端分享API文档生成工具
