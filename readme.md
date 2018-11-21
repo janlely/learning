@@ -294,6 +294,7 @@
 * [freeswitch中文文档](http://www.freeswitch.org.cn/2010/04/30/freeswitch-zhong-wen-wen-dang.html)
 * [opensips官方文档(重要)](http://www.opensips.org/Documentation/Manuals)
 * [sip via rport](https://www.cnblogs.com/xiaOt119/archive/2012/06/11/2545136.html)
+* [DTMF原理](https://www.cnblogs.com/x_wukong/p/5770881.html)
 
 #### FREESWITCH
 
