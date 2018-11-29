@@ -174,6 +174,10 @@
 * [jvm排查工具箱jvm-tools](https://www.jianshu.com/p/846cfb217acf)
 * [JVM 性能调优监控工具 jps、jstack、jmap、jhat、jstat 等使用详解](https://juejin.im/entry/58c53e4c128fe1006b3b2b1f)
 
+### 高可用
+
+[**阿里巴巴高可用架构的演进史**](https://blog.csdn.net/love_taylor/article/details/73603672)
+
 ### 数据存储
 
 #### 关系型
