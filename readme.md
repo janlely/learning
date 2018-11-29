@@ -29,6 +29,8 @@
 
 ### 服务化
 
+[CS与BS架构区别](https://blog.csdn.net/qq_37016928/article/details/79479359)
+
 #### 微服务(microservice)
 * [微服务基础理论](https://medium.com/@Alibaba_Cloud/conways-law-a-theoretical-basis-for-the-microservice-architecture-c666f7fcc66a)
 * [微服务系统设计原则](https://techbeacon.com/5-fundamentals-successful-microservice-design)
@@ -38,6 +40,7 @@
 	* 服务装载与卸载
 	* 服务监控
 * 避免分布式事务
+
 
 #### 负载均衡(load balance)
 * DNS [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS)
@@ -364,3 +367,8 @@
 * [[lucene字典实现原理——FST](https://www.cnblogs.com/bonelee/p/6226185.html)](https://www.cnblogs.com/bonelee/p/6226185.html)
 * [Elasticsearch原理](https://blog.csdn.net/qq_36289377/article/details/82993160)
 * [Finite State Transducers 详解](https://blog.csdn.net/fightingforcv/article/details/42709355<Paste>)
+
+
+### 网络安全相关
+* [ARP欺骗](https://www.cnblogs.com/ichunqiu/p/5662832.html)
+* [DNS欺骗与防御](https://blog.csdn.net/jackliu16/article/details/79426241)
