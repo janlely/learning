@@ -178,6 +178,14 @@
 
 [**阿里巴巴高可用架构的演进史**](https://blog.csdn.net/love_taylor/article/details/73603672)
 
+[双活数据中心架构分析及优缺点](https://blog.csdn.net/xihuanyuye/article/details/81347030)
+
+[PXC的原理](https://www.cnblogs.com/zengkefu/p/5678279.html)
+
+[带你玩转Mysql高可用方案--PXC](https://blog.csdn.net/zisefeizhu/article/details/81873466)
+
+
+
 ### 数据存储
 
 #### 关系型
