@@ -230,6 +230,7 @@
     * 索引文件包含了数据
 
 #### mysql事务、并发、锁机制
+
 * [这篇文章讲得很详细](https://blog.csdn.net/canot/article/details/53815294)
 * 行级锁、表级锁、页级锁
   * 表级锁: 锁定整个表(MyISAM)，加锁快、易冲突、低并发
@@ -285,6 +286,7 @@
 * [Kafka用zk做什么](https://blog.csdn.net/m0_37738114/article/details/80406948)
 * offset管理: kafka不马上删除数据，而是通过更新offset。
 * [如何为Kafka集群选择合适的Topic/Partitions数量](https://blog.csdn.net/WuLex/article/details/80934437)
+* [消息系统kafka之二 kafka的HA（高可用）](https://blog.csdn.net/gongzhiyao3739124/article/details/79688813)
 
 #### redis
 
@@ -388,3 +390,10 @@
 ### 网络安全相关
 * [ARP欺骗](https://www.cnblogs.com/ichunqiu/p/5662832.html)
 * [DNS欺骗与防御](https://blog.csdn.net/jackliu16/article/details/79426241)
+
+
+### 大数据
+
+* [Flume原理解析](https://www.cnblogs.com/zhangyinhua/p/7803486.html)
+* [apacha storm教程](https://www.w3cschool.cn/apache_storm/apache_storm_introduction.html)
+* [Apache 流框架 Flink，Spark Streaming，Storm对比分析](http://www.cnblogs.com/163yun/p/9007769.html)
