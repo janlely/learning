@@ -184,6 +184,8 @@
 
 [带你玩转Mysql高可用方案--PXC](https://blog.csdn.net/zisefeizhu/article/details/81873466)
 
+[分布式、多活数据中心如何实现DNS域名解析和负载均衡？](http://server.51cto.com/Datacenter-558893.htm)
+
 
 
 ### 数据存储
@@ -282,6 +284,7 @@
 * Consumer Group: 一个group内可以有多个consumer, 一个group有一个offset。一个topic可以有多个group, 每个group管理自己的offset
 * [Kafka用zk做什么](https://blog.csdn.net/m0_37738114/article/details/80406948)
 * offset管理: kafka不马上删除数据，而是通过更新offset。
+* [如何为Kafka集群选择合适的Topic/Partitions数量](https://blog.csdn.net/WuLex/article/details/80934437)
 
 #### redis
 
@@ -352,9 +355,10 @@
 
 
 ### 加密相关
-[MD5算法原理](https://www.cnblogs.com/ttss/p/4243274.html)
-[PKCS5 PKCS7](https://blog.csdn.net/test1280/article/details/75268255)
-[HEX原理](https://www.jianshu.com/p/57c4e8d3f035)
+* [MD5算法原理](https://www.cnblogs.com/ttss/p/4243274.html)
+* [PKCS5 PKCS7](https://blog.csdn.net/test1280/article/details/75268255)
+* [HEX原理](https://www.jianshu.com/p/57c4e8d3f035)
+* [数字签名算法](https://www.shsxt.com/it/html5/653.html)
 
 
 ### 前后端分享API文档生成工具
