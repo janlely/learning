@@ -305,7 +305,7 @@
 * [stack guide](https://docs.haskellstack.org/en/stable/GUIDE/)
 * [haskell学习资料大全](https://github.com/bitemyapp/learnhaskell/blob/master/guide-zh_CN.md)
 
-### VOIP
+### VOIP与通信相关
 #### SIP
 
 * [语音业务VOIP开发之SIP协议篇：SIP基本场景分析](https://blog.csdn.net/zqixiao_09/article/details/79519335)
@@ -315,6 +315,8 @@
 * [opensips官方文档(重要)](http://www.opensips.org/Documentation/Manuals)
 * [sip via rport](https://www.cnblogs.com/xiaOt119/archive/2012/06/11/2545136.html)
 * [DTMF原理](https://www.cnblogs.com/x_wukong/p/5770881.html)
+* [IMS网络架构简介](http://blog.sina.com.cn/s/blog_7a6f76080100vnwd.html)
+* [IMS相关博文目录](http://blog.sina.com.cn/s/articlelist_2054125064_0_1.html)
 
 #### FREESWITCH
 
@@ -336,6 +338,16 @@
 * [FreeSWITCH折腾笔记8——使用OpenSIPS进行负载均衡](http://blog.51cto.com/908405/2235934)
 * [freeswitch 之mysql性能优化篇](https://blog.csdn.net/swcxy12315/article/details/79464931)
 * [freeswitch使用mysql代替sqlite以及通过lua管理用户登录](https://blog.csdn.net/thrill008/article/details/78413260)
+
+#### IMS网络相关
+* [ENUM/DNS](http://www.ctiforum.com/technology/um/2002/06/um0601.htm)
+* [CM-IMS中的ENUM/DNS组网及查询方案](http://blog.sina.com.cn/s/blog_7a6f76080100vqb1.html)
+* [IMS网络中设备间的接口(Cx,Dx,Mw)](https://blog.csdn.net/foolskindom/article/details/5021397)
+* [HSS](https://baike.baidu.com/item/HSS/4649006)
+* [NGN](https://baike.baidu.com/item/%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%BD%91%E7%BB%9C/2020150?fromtitle=ngn&fromid=718175)
+* [IMS](https://baike.baidu.com/item/IMS/12003646)
+* [SBC的功能与部署方案](http://blog.sina.com.cn/s/blog_7a6f76080100vp9r.html)
+
 ### 计算机网络相关
 
 #### NAT相关
@@ -349,7 +361,9 @@
 [跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
 
 ### C编译相关
+
 #### configure, make, make install
+
 * [The magic behind configure, make, make install](https://robots.thoughtbot.com/the-magic-behind-configure-make-make-install)
 * [Using Autotools](https://developer.gnome.org/anjuta-build-tutorial/stable/create-autotools.html.en)
 * [configure.ac and configure.in](https://stackoverflow.com/questions/3782994/any-difference-between-configure-ac-and-configure-in-and-makefile-am-and-makefi)
@@ -357,13 +371,17 @@
 
 
 ### 加密相关
+
 * [MD5算法原理](https://www.cnblogs.com/ttss/p/4243274.html)
 * [PKCS5 PKCS7](https://blog.csdn.net/test1280/article/details/75268255)
 * [HEX原理](https://www.jianshu.com/p/57c4e8d3f035)
 * [数字签名算法](https://www.shsxt.com/it/html5/653.html)
+* [初始化向量](https://baike.baidu.com/item/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%90%91%E9%87%8F/22660836)，
+    可以防止暴力破解密钥
 
 
 ### 前后端分享API文档生成工具
+
 * [swagger](https://swagger.io/)
 * [rap2-delos](https://github.com/thx/rap2-delos)
 * [rap](https://github.com/thx/RAP)
@@ -397,3 +415,8 @@
 * [Flume原理解析](https://www.cnblogs.com/zhangyinhua/p/7803486.html)
 * [apacha storm教程](https://www.w3cschool.cn/apache_storm/apache_storm_introduction.html)
 * [Apache 流框架 Flink，Spark Streaming，Storm对比分析](http://www.cnblogs.com/163yun/p/9007769.html)
+
+### 设计模式
+
+* [23种设计模式全解析](https://www.cnblogs.com/susanws/p/5510229.html)
+* [设计模式博客](https://blog.csdn.net/niunai112/article/details/79982712<Paste>)
