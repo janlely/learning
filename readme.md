@@ -352,6 +352,7 @@
 
 #### NAT相关
 
+[NAT穿越](http://www.52im.net/article-64-1.html)
 [单IP做NAT支持的最大连接数问题](https://blog.csdn.net/qiushanjushi/article/details/43306511)
 
 
